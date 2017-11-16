@@ -23,4 +23,9 @@ const message = (id, message) => ({
   message,
 });
 
+const Text = text => ({
+  message: text,
+});
+
+export const Text;
 export default R.compose(api, message);

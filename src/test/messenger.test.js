@@ -15,6 +15,6 @@ test('receiving messages', () => {
   expect(messagings(data)).toEqual([message]);
 });
 
-test('print on screen', () => {
+test('get messages', () => {
   expect(handle(message)).toMatch(/^Message: (.*) from user (\w+)$/);
 });
