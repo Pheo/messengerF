@@ -1,4 +1,4 @@
-## A functional programming boilerplate of Facebook Messenger API.
+## A functional programming boilerplate for Facebook Messenger API.
 
 After clone this repository, you should edit `config.js` :
 ```javascript
